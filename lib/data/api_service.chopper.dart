@@ -15,8 +15,8 @@ class _$ApiService extends ApiService {
   final definitionType = ApiService;
 
   Future<Response> getRepos() {
-    String username = 'fressnapf@byom.de';
-    String password = 'p4ssw0rd';
+    String username = '';
+    String password = '';
     final $url = '';
     final $request = Request('GET', $url, client.baseUrl, headers: {
       'Content-Type': 'application/json',
